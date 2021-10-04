@@ -4,17 +4,17 @@ public class DoWhile {
 
         //angkaMulai
 
-        int bensin = 1;
+        int fuel = 1;
 
         do {
             //yang mau di looping
-            System.out.println(bensin + " Liter");
+            System.out.println(fuel + " Liter");
 
             //operator unary penambahan
-            bensin++;
+            fuel++;
 
             //batasan looping
-        }while (bensin <= 10);
+        }while (fuel <= 10);
 
     }
 }

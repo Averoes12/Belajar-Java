@@ -10,12 +10,14 @@ public class Temperatur {
         Scanner temperatur  = new Scanner(System.in);
         suhu = temperatur.nextInt();
 
-        if (suhu == 30 && suhu== 40){
+        if (suhu == 25){
             System.out.println("Suhu " + suhu + " Celcius, Normal");
-        }else if (suhu < 40){
-            System.out.println("Suhu " + suhu + " Celcius, Dingin");
+        }else if (suhu < 25){
+            System.out.println("Suhu " + suhu + " Celcius, Cold");
+        }else if (suhu > 25 && suhu < 30) {
+          System.out.println("Suhu " + suhu + " Celcius, Hot")
         }else {
-            System.out.println("Suhu " + suhu + " Celcius, Terlalu tinggi");
+            System.out.println("Suhu " + suhu + " Celcius, So Hot");
         }
     }
 }
